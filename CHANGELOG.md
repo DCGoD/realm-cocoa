@@ -40,6 +40,8 @@ x.x.x Release notes (yyyy-MM-dd)
   released in another.
 * Fix crash when a migration which removed an object or array property is
   rolled back due to an error.
+* Fix crashes when the first Realm opened uses a class subset and later Realms
+  opened do not.
 
 0.95.0 Release notes (2015-08-25)
 =============================================================
